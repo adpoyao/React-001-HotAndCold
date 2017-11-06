@@ -9,6 +9,6 @@ export default function Form (props) {
         <input type='text' placeholder='Enter your Guess'></input>
         <button type="button">Guess</button>
       </form>
-      <span>Guess #{props.currentNumber}!</span>
+      <div className='guess'>Guess #<span className='guessNumber'>{props.currentNumber}</span>!</div>
     </div>
   )}

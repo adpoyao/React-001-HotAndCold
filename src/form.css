@@ -1,0 +1,37 @@
+.form {
+  height: 200px;
+  background-color: rgb(58, 67, 97);
+  padding-top: 20px;
+}
+
+input {
+  display: block;
+  width: 75%;
+  height: 40px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin: 20px auto;
+  background: rgb(81, 90, 122);
+  border: 1px black solid;
+  text-align: center;
+  border-radius: 3px;
+}
+
+button {
+  font-size: 25px;
+  width: 75%;
+  height: 40px;
+  background-color: rgb(31, 38, 61);
+  border: 1px black solid;
+  border-radius: 3px;
+  color: rgb(149, 165, 166);
+}
+
+.guess {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.guessNumber {
+  color: rgb(241, 155, 44);
+}
