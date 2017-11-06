@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './gamebox.css';
+
 export default function Gamebox (props) {
 
 const histories = props.history.map((history, index) => {
@@ -7,7 +9,7 @@ const histories = props.history.map((history, index) => {
 })
 
   return (
-    <div className='container'>
+    <div className='game-container'>
       <div className='feedback'>{props.feedback}</div>
       <div className='form'>
         <form>

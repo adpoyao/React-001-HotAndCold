@@ -1,0 +1,17 @@
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.what {
+    position: absolute;
+    left: 30px;
+}
+
+.new-game {
+    position: absolute;
+    right: 30px;
+}

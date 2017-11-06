@@ -1,3 +1,23 @@
+* {
+  color: white
+}
+
+body {
+  background-color: rgb(58, 67, 97);
+  text-align: center
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: rgb(31, 38, 61);
+  border-radius: 4px;
+  margin: 20px;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }

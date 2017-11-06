@@ -7,10 +7,10 @@ export class App extends React.Component {
   constructor(props) { 
     super(props);
     this.state = {
-      currentNumber: null,
-      recentGuess: null,
-      history: [],
-      feedback: null,
+      currentNumber: 8,
+      recentGuess: 7,
+      history: [6, 9, 13],
+      feedback: 'Make your guess!',
       feedbackOptions: ['super hot', 'hot', 'cold']
     }
   }
