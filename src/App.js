@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Navbar from './navbar';
 import Gamebox from './gamebox';
@@ -15,10 +15,16 @@ export class App extends React.Component {
     }
   }
 
-  return (
   render() {
-    
-      
+    return(
+      <div className='container'>
+        <Navbar />
+        <h1 className='title'>HOT or COLD</h1>
+        <Gamebox history={this.state.history}
+        feedback={this.state.feedback}
+        currentNumber={this.state.currentNumber}/>
+      </div>
+    )  
   }
 }
 

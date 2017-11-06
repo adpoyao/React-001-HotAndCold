@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 export default function Gamebox (props) {
 
@@ -14,7 +14,7 @@ const histories = props.history.map((history, index) => {
           <input type='text' placeholder='Enter your Guess'></input>
           <button type="button">Guess</button>
         </form>
-        <span>Guess #{props.currentNumber}</span>
+        <span>Guess #{props.currentNumber}!</span>
       </div>
       <div className='history'>{histories}</div>
     </div>
